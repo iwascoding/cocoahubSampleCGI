@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'cocoahubSampleCGI' target in the 'cocoahubSampleCGI' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+#endif
