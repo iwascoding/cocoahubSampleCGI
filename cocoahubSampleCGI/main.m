@@ -8,14 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+#import "CHSampleCGI.h"
+
 int main(int argc, const char * argv[])
 {
-
 	@autoreleasepool {
-	    
 	    // insert code here...
-	    NSLog(@"Hello, Paul!");
-	    
+	    [[[CHSampleCGI alloc] init] generateResponse];
 	}
     return 0;
 }
