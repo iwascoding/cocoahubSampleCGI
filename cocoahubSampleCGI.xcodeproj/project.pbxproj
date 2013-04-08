@@ -11,7 +11,6 @@
 		4D9B6E1D170B1BDF00AAC8C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9B6E1C170B1BDF00AAC8C7 /* Foundation.framework */; };
 		4D9B6E20170B1BDF00AAC8C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B6E1F170B1BDF00AAC8C7 /* main.m */; };
 		4D9B6E24170B1BDF00AAC8C7 /* cocoahubSampleCGI.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4D9B6E23170B1BDF00AAC8C7 /* cocoahubSampleCGI.1 */; };
-		4D9B6E37170C240900AAC8C7 /* CHCGI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B6E36170C240900AAC8C7 /* CHCGI.m */; };
 		4D9B6E3A170C241E00AAC8C7 /* CHSampleCGI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9B6E39170C241E00AAC8C7 /* CHSampleCGI.m */; };
 /* End PBXBuildFile section */
 
@@ -34,8 +33,6 @@
 		4D9B6E1F170B1BDF00AAC8C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4D9B6E22170B1BDF00AAC8C7 /* cocoahubSampleCGI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cocoahubSampleCGI-Prefix.pch"; sourceTree = "<group>"; };
 		4D9B6E23170B1BDF00AAC8C7 /* cocoahubSampleCGI.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = cocoahubSampleCGI.1; sourceTree = "<group>"; };
-		4D9B6E35170C240900AAC8C7 /* CHCGI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCGI.h; sourceTree = "<group>"; };
-		4D9B6E36170C240900AAC8C7 /* CHCGI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCGI.m; sourceTree = "<group>"; };
 		4D9B6E38170C241E00AAC8C7 /* CHSampleCGI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSampleCGI.h; sourceTree = "<group>"; };
 		4D9B6E39170C241E00AAC8C7 /* CHSampleCGI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSampleCGI.m; sourceTree = "<group>"; };
 		85C4B69B60D944F5B34EDA31 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
@@ -88,8 +85,6 @@
 				4D9B6E1F170B1BDF00AAC8C7 /* main.m */,
 				4D9B6E23170B1BDF00AAC8C7 /* cocoahubSampleCGI.1 */,
 				4D9B6E21170B1BDF00AAC8C7 /* Supporting Files */,
-				4D9B6E35170C240900AAC8C7 /* CHCGI.h */,
-				4D9B6E36170C240900AAC8C7 /* CHCGI.m */,
 				4D9B6E38170C241E00AAC8C7 /* CHSampleCGI.h */,
 				4D9B6E39170C241E00AAC8C7 /* CHSampleCGI.m */,
 			);
@@ -174,7 +169,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D9B6E20170B1BDF00AAC8C7 /* main.m in Sources */,
-				4D9B6E37170C240900AAC8C7 /* CHCGI.m in Sources */,
 				4D9B6E3A170C241E00AAC8C7 /* CHSampleCGI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
