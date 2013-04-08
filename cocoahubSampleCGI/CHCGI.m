@@ -10,9 +10,6 @@
 
 @interface CHCGI ()
 
-@property (strong) NSData	*responseHTTPBody;
-@property (strong) NSString	*contentType;
-
 @end
 
 @implementation CHCGI
@@ -64,8 +61,18 @@
 - (void) printResponse:(NSHTTPURLResponse*) inResponse
 {
 	//TODO: we need to parse status code and response headers on the cocoahub side
-	//printf ("Status: %ld \n", inResponse.statusCode);
-	//printf ("\n");
+	printf ("Status: %ld \n", inResponse.statusCode);
+	
+	if (self.contentType)
+	{
+		printf ("Content-Type: %s\n", [self.contentType cStringUsingEncoding:NSUTF8StringEncoding]);
+	}
+	for (NSString *headerKey in inResponse.allHeaderFields)
+	{
+		printf ("%s: %s\n", [headerKey cStringUsingEncoding:NSUTF8StringEncoding],
+				[inResponse.allHeaderFields[headerKey] cStringUsingEncoding:NSUTF8StringEncoding]);
+	}
+	printf ("\n");
 		
 	if (self.responseHTTPBody)
 	{

@@ -12,4 +12,7 @@
 
 - (void) generateResponse;
 
+@property (strong) NSData	*responseHTTPBody;
+@property (strong) NSString	*contentType;
+
 @end
